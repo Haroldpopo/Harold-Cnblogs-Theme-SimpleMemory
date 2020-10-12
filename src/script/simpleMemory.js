@@ -3,12 +3,6 @@
  * https://www.cnblogs.com/Harold-popo/
  * @author: Harold, 2417525822@qq.com
  **/
-window.cnblogsConfig = {
-	GhVersions : 'v1.0.0',
-	blogUser : "Harold-popo",
-	blogAvatar : "https://pic.cnblogs.com/avatar/1958541/20200303113219.png",
-	blogStartDate : "2020-3-3",
-}
 
 if (initCheck()) {
 
@@ -100,7 +94,7 @@ if (initCheck()) {
     window.cnblogsConfigDefault = {
         GhUserName: 'Harold-666',	// GitHub用户名(不是昵称)，注意大小写
         GhRepositories: 'Harold-Cnblogs-Theme-SimpleMemory',	// GitHub主题仓库名称
-        GhVersions: 'v1.0.0',	// GitHub发布版本或提交哈希值，根据版本加载代码
+        GhVersions: 'v1.0.1',	// GitHub发布版本或提交哈希值，根据版本加载代码
         CnVersions: "",
         blogUser: "Harold-popo",	// 用户名
         blogAvatar: "https://pic.cnblogs.com/avatar/1958541/20200303113219.png",	// 用户头像
@@ -294,34 +288,14 @@ function getVersionConfig() {
     } else if(window.cnblogsConfig.GhUserName === 'Harold-666') {
         window.themeVersion = [
             [
-                "v1.1.6",
-                "d8adfb50252062f658350bda29d7145f5eff0b80"
+                "v1.0.0",
+                "345f8dc1ceba54d5890e8c683c53e05058439ff8"
             ]
-            ,
+            /* ,
             [
-                "v1.1.8",
-                "461aab69de17a84f0af9ff0c326bfcb94438b06c"
-            ]
-            ,
-            [
-                "v1.2.2",
-                "08eab99303d7c463a495adabd8feccc784a8507d"
-            ]
-            ,
-            [
-                "v1.2.3",
-                "36901bf16e2aa3656d4e6f78d44486273b0b8972"
-            ]
-            ,
-            [
-                "v1.2.4",
-                "9354db2147c11fc56cfe02a502f1f8229332fc2f"
-            ]
-            ,
-            [
-                "v1.2.5",
-                "4d744f980758500078df349520472e3b360fb841"
-            ]
+                "v1.0.1",
+                ""
+            ] */
         ];
         setConfVersion();
     } else {
