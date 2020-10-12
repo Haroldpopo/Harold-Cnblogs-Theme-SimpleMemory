@@ -157,7 +157,7 @@ if (initCheck()) {
         homeTopAnimation: {	// 主页banner动效配置
             radius: 15,
             density: 0.2,
-            color: 'random',
+            color: 'rgba(255,255,255, .2)',
             clearOffset: 0.3
         },
         essayTopAnimationRendered: true,	// 是否渲染文章页banner动效
