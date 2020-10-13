@@ -193,13 +193,13 @@ if (initCheck()) {
 			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_3.bmp",
 			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_4.bmp",
 			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_5.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_多子星.bmp",
 			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_鬼刀-冰公主.bmp",
 			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_鬼刀1.bmp",
 			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_鬼刀2.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_拉姆雷姆.bmp",
 			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_兽耳娘.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_子衿阁.bmp"
+			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/wallpaper/wallhaven-oxvkxp.webp",
+			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/wallpaper/wallhaven-ne7lr8.webp",
+			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/wallpaper/wallhaven-47ldq9.webp"
         ],
         homeBannerText: "",	// 主页banner上的标语，设置此选项会固定显示文字，默认为空，自动获取一句
         homeBannerTextType: "jinrishici",	// 主页 banner 上的标语获取源，默认为 jinrishici 每次刷新随机获取一句古诗词
