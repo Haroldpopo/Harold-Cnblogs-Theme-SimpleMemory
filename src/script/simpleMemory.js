@@ -94,7 +94,7 @@ if (initCheck()) {
     window.cnblogsConfigDefault = {
         GhUserName: 'Harold-666',	// GitHub用户名(不是昵称)，注意大小写
         GhRepositories: 'Harold-Cnblogs-Theme-SimpleMemory',	// GitHub主题仓库名称
-        GhVersions: 'v1.0.1',	// GitHub发布版本或提交哈希值，根据版本加载代码
+        GhVersions: 'v1.0.3',	// GitHub发布版本或提交哈希值，根据版本加载代码
         CnVersions: "",
         blogUser: "Harold-popo",	// 用户名
         blogAvatar: "https://pic.cnblogs.com/avatar/1958541/20200303113219.png",	// 用户头像
@@ -110,8 +110,7 @@ if (initCheck()) {
 	        },
         },
         menuNavList: [	// 列表数据 ['导航名称', '链接']
-			['联系博主', 'https://msg.cnblogs.com/send/'],
-			['UFO_Harold', 'https://blog.csdn.net/UFO_Harold'],
+            ['UFO_Harold', 'https://blog.csdn.net/UFO_Harold'],
         ],
         menuUserInfoBgImg: 'https://files.cnblogs.com/files/Harold-popo/menu_bg.gif',	// 菜单个人信息背景图
         webpageTitleOnblur: "(oﾟvﾟ)ノ Hi!",	// 当页面失去焦点，页面title显示的文字。
@@ -188,33 +187,33 @@ if (initCheck()) {
         },
         homeTopImg: [	// 主页banner图片Url，推荐尺寸>= 1920*1080，支持多张，每次刷新随机设置一张
             "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_1.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_2.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_3.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_4.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_5.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_鬼刀-冰公主.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_鬼刀1.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_鬼刀2.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_兽耳娘.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/wallpaper/wallhaven-oxvkxp.webp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/wallpaper/wallhaven-ne7lr8.webp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/wallpaper/wallhaven-47ldq9.webp"
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_1.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_2.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_3.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_4.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_5.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_鬼刀-冰公主.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_鬼刀1.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_鬼刀2.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/homeTopImg_兽耳娘.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/wallpaper/wallhaven-oxvkxp.webp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/wallpaper/wallhaven-ne7lr8.webp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/wallpaper/wallhaven-47ldq9.webp"
         ],
         homeBannerText: "",	// 主页banner上的标语，设置此选项会固定显示文字，默认为空，自动获取一句
         homeBannerTextType: "jinrishici",	// 主页 banner 上的标语获取源，默认为 jinrishici 每次刷新随机获取一句古诗词
         essayTopImg: [	// 文章页banner图片Url，推荐尺寸>= 1920*1080，支持多张，每次刷新随机设置一张
             "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_1.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_鬼刀1.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_鬼刀2.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_海蓝星.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_迷梦亭.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_元泱境.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_月光亲吻.bmp",
-			"https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_Love.bmp"
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_1.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_鬼刀1.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_鬼刀2.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_海蓝星.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_迷梦亭.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_元泱境.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_月光亲吻.bmp",
+            "https://cdn.jsdelivr.net/gh/Harold-666/Harold-Cnblogs-Theme-SimpleMemory@master/img/bmp/essayTopImg_Love.bmp"
         ],
-        essayCodeHighlightingType: 'highlightjs',
+        essayCodeHighlightingType: 'highlightjs',	// 代码高亮主题类型
         essayCodeHighlighting: '',	// 当使用博客园代码高亮样式时，此配置不会对渲染产生影响，highlightjs 代码高亮主题：demo
         codeMaxHeight: true,	// 代码最高限制，超过长度的70%scroll
         essaySuffix: {	// 文章后缀配置，不配置使用默认
@@ -224,10 +223,10 @@ if (initCheck()) {
             supportHtml: ''	// 声援博主，不配置使用默认
         },
         bottomBlogroll: [	// 友情链接，[[链接名,链接]....]
-			[ "申请坑位", 'https://msg.cnblogs.com/send/Harold-popo' ],
-			[ "申请坑位", 'https://msg.cnblogs.com/send/Harold-popo' ],
-			[ "申请坑位", 'https://msg.cnblogs.com/send/Harold-popo' ],
-			[ "申请坑位", 'https://msg.cnblogs.com/send/Harold-popo' ],
+            [ "申请坑位", 'https://msg.cnblogs.com/send/Harold-popo' ],
+            [ "申请坑位", 'https://msg.cnblogs.com/send/Harold-popo' ],
+            [ "申请坑位", 'https://msg.cnblogs.com/send/Harold-popo' ],
+            [ "申请坑位", 'https://msg.cnblogs.com/send/Harold-popo' ],
         ],
         bottomText: {	// 页脚标语
             icon: "❤️",	// 图标
@@ -236,7 +235,7 @@ if (initCheck()) {
         },
         footerStyle: 1,	// 页脚样式
         consoleList: [],	// 控制台输出
-        bookList: [],
+        bookList: [],	// 书单
         themeAuthor: false,	// 是否显示主题作者
         isVersionMapping: false,	// 是否启用版本映射
     };
@@ -291,11 +290,16 @@ function getVersionConfig() {
                 "v1.0.0",
                 "345f8dc1ceba54d5890e8c683c53e05058439ff8"
             ]
-            /* ,
+            ,
             [
                 "v1.0.1",
-                ""
-            ] */
+                "b183fe4b4bb6badc959fbbfc296fac83604adc05"
+            ]
+            ,
+            [
+                "v1.0.2",
+                "a75eb16ae4b582ae102ae5fdfe967f9a6107f0eb"
+            ]
         ];
         setConfVersion();
     } else {
@@ -336,7 +340,8 @@ function init() {
     var user = tmp[3];
     var navListHtml = '<li><a href="https://www.cnblogs.com/'+user+'/" target="_self">首页</a></li>' +
         '<li><a href="https://i.cnblogs.com/" target="_blank">管理</a></li>' +
-        '<li><a href="https://www.cnblogs.com/" target="_blank">博客园</a></li>';
+        '<li><a href="https://www.cnblogs.com/" target="_blank">博客园</a></li>' + 
+        '<li><a href="https://msg.cnblogs.com/send/'+user+'" target="_blank">联系博主</a></li>';
 
     var menuNavList = window.cnblogsConfig.menuNavList;
     if (menuNavList.length > 0) {
